@@ -49,3 +49,11 @@ This code is an implementation of a Java program that finds a combination of num
 16. If a combination is found, the combination is printed to the console.
 
 That's an overview of the provided code. It aims to find a combination of numbers from an input array that sums up to zero using a recursive approach and backtracking.
+
+## Time complexity
+In the worst case scenario, where all combinations are considered, the number of combinations grows exponentially with the size of the input array. Each element in the array can be either included or excluded in a combination, resulting in 2^N possible combinations.
+
+Therefore, the overall time complexity of the findZeroSumCombination function is O(2^N), dominated by the exponential growth of the number of combinations.
+
+## Space Complexity
+ Both the recursive calls and the output space, the overall space complexity of the given code is O(N).
